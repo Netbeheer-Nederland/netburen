@@ -1,0 +1,8 @@
+# Changes here will be overwritten by Copier
+_commit: '0.6'
+_src_path: gh:Netbeheer-Nederland/template-dp
+description: Information model for Netburen data product.
+exchange_format: JSON
+git_protocol: SSH
+name: netburen
+title: Netburen
