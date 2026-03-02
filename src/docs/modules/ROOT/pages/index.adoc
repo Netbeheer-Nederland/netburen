@@ -39,34 +39,6 @@ EnergyConsumer -> MarketEvaluationPoint: "market_evaluation_points"
 EnergyConsumer -> Location: "location"
 Substation -> Location: "location"
 
-classes: {
-  empty: {
-    label: ""
-    style: {
-      fill: transparent
-      stroke: transparent
-    }
-  }
-  grid: {
-    style: {
-      fill: "#eccfcb"
-      shadow: true
-    }
-  }
-  enterprise: {
-    style: {
-      fill: "#d1e7c2"
-      shadow: true
-    }
-  }
-  market: {
-    style: {
-      fill: "#fffbef"
-      shadow: true
-    }
-  }
-}
-
 legend: "" {
   style: {
     fill: transparent

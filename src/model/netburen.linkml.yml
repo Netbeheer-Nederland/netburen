@@ -310,6 +310,12 @@ classes:
     description: "Street details, in the context of address.\r\n"
     from_schema: https://cim.ucaiug.io/ns#TC57CIM.IEC61968.Common
     attributes:
+      name:
+        slot_uri: cim:StreetDetail.name
+        range: string
+        required: false
+        multivalued: false
+        description: Name of the street.
       number:
         description: Designator of the specific location on the street.
         slot_uri: cim:StreetDetail.number
@@ -326,6 +332,12 @@ classes:
         range: string
         required: false
         multivalued: false
+      name:
+        slot_uri: cim:TownDetail.name
+        range: string
+        required: false
+        multivalued: false
+        description: Town name.
       state_or_province:
         description: Name of the state or province.
         slot_uri: cim:TownDetail.stateOrProvince
